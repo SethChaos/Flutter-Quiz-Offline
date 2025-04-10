@@ -1,0 +1,193 @@
+{
+  "aircraft": [
+    {
+      "name": "Boeing 737",
+      "image_asset": "assets/images/b737.png",
+      "crew_types": [
+        {
+          "name": "Air Crew",
+          "topics": [
+            {
+              "name": "Pre-flight Procedures",
+              "questions": [
+                {
+                  "question": "What is the minimum fuel required for standard domestic flights?",
+                  "explanation": "According to B737 operations manual, the minimum fuel required for standard domestic flights is trip fuel plus alternate fuel plus final reserve, which is typically 1500kg.",
+                  "options": [
+                    {
+                      "text": "1000 kg",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "1500 kg",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "2000 kg",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "2500 kg",
+                      "isCorrect": false
+                    }
+                  ]
+                },
+                {
+                  "question": "What is the maximum takeoff weight for Boeing 737-800?",
+                  "explanation": "The maximum takeoff weight (MTOW) for Boeing 737-800 is 79,016 kg according to the aircraft specifications.",
+                  "options": [
+                    {
+                      "text": "70,535 kg",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "79,016 kg",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "85,139 kg",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "91,300 kg",
+                      "isCorrect": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Emergency Procedures",
+              "questions": [
+                {
+                  "question": "In case of engine fire during takeoff, at what point should the takeoff be rejected?",
+                  "explanation": "According to standard procedures, if an engine fire is detected before V1 (takeoff decision speed), the takeoff should be rejected. After V1, the aircraft should continue takeoff and handle the fire once airborne.",
+                  "options": [
+                    {
+                      "text": "At any point during the takeoff roll",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "Only after V2",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "Only before V1",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "Only after rotation",
+                      "isCorrect": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ground Crew",
+          "topics": [
+            {
+              "name": "Aircraft Towing",
+              "questions": [
+                {
+                  "question": "What is the maximum towing speed for the Boeing 737 on straight sections?",
+                  "explanation": "According to Boeing's Aircraft Maintenance Manual, the maximum towing speed for Boeing 737 on straight sections is 5 km/h.",
+                  "options": [
+                    {
+                      "text": "3 km/h",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "5 km/h",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "7 km/h",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "10 km/h",
+                      "isCorrect": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Airbus A320",
+      "image_asset": "assets/images/a320.png",
+      "crew_types": [
+        {
+          "name": "Air Crew",
+          "topics": [
+            {
+              "name": "Normal Procedures",
+              "questions": [
+                {
+                  "question": "What is the standard flap setting for takeoff in an A320?",
+                  "explanation": "The standard flap settings for A320 takeoff are typically Flaps 1 or Flaps 2, with Flaps 1+F being the most commonly used setting for normal operations.",
+                  "options": [
+                    {
+                      "text": "Flaps 0",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "Flaps 1+F",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "Flaps 3",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "Flaps Full",
+                      "isCorrect": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ground Crew",
+          "topics": [
+            {
+              "name": "Refueling Procedures",
+              "questions": [
+                {
+                  "question": "What is the maximum fuel capacity of Airbus A320?",
+                  "explanation": "The standard A320 has a maximum fuel capacity of 23,859 liters (6,302 US gallons) of usable fuel.",
+                  "options": [
+                    {
+                      "text": "19,210 liters",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "23,859 liters",
+                      "isCorrect": true
+                    },
+                    {
+                      "text": "27,200 liters",
+                      "isCorrect": false
+                    },
+                    {
+                      "text": "30,190 liters",
+                      "isCorrect": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
